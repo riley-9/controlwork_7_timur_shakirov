@@ -13,10 +13,10 @@
 
 {% block content %}
     {% for entry in entries %}
-        <div class="card text-center" style="margin-top: 40px; background-color: #C70039; color:white">
+        <div class="card text-center">
         <span>
-            <a href="{% url 'entry_update' entry.id %}" style="color: thistle;"><i class="fas fa-edit"></i> </a>   | <a
-                href="{% url 'entry_delete' entry.id %}" style="color:thistle;"><i class="fas fa-eraser"></i></a>
+            <a href="{% url 'entry_update' entry.id %}" >Редактировать<i class="fas fa-edit"></i> <img src="static/images/edit.png" alt="delete"></i> </a>   |  <a
+                href="{% url 'entry_delete' entry.id %}"><i class="fas fa-eraser"><img src="static/images/file.png" alt="delete"></i> Удалить</a>
         </span>
 
 
