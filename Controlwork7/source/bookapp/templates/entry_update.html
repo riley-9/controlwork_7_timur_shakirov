@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <form action="{% url 'entry_update' entry.id %}" method='post'>
+        {% include 'entry_form.html' with button_text='Update' %}
+    </form>
+{% endblock content %}

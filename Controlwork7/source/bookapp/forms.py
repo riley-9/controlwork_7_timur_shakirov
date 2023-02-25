@@ -7,4 +7,3 @@ class EntryForm(forms.ModelForm):
     class Meta:
         model = Entry
         fields = ['author', 'email', 'text']
-
