@@ -15,8 +15,15 @@
     {% for entry in entries %}
         <div class="card text-center">
         <span>
-            <a href="{% url 'entry_update' entry.id %}" >Редактировать<i class="fas fa-edit"></i> <img src="static/images/edit.png" alt="delete"></i> </a>   |  <a
-                href="{% url 'entry_delete' entry.id %}"><i class="fas fa-eraser"><img src="static/images/file.png" alt="delete"></i> Удалить</a>
+            <br>
+            <a href="{% url 'entry_update' entry.id %}" <img src="static/images/edit.png"
+                                                             alt="edit"> Редактировать<img
+                src="static/images/edit.png"
+                alt="edit"><i
+                class="fas fa-edit"></i> </a>      |     <a
+                href="{% url 'entry_delete' entry.id %}"><i class="fas fa-eraser"></i> Удалить <img
+                src="static/images/file.png"
+                alt="delete"></a>
         </span>
 
 

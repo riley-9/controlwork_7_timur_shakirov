@@ -1,10 +1,8 @@
 {% extends 'base.html' %}
-{% load static %}
-<link rel="stylesheet" href="{% static 'css/style.css' %}">
 
 {% block content %}
 
     <form action="{% url 'entry_update' entry.id %}" method='post'>
-        {% include 'entry_form.html' with button_text='Обновить' %}
+        {% include 'partial/entry_form.html' with button_text='Обновить' %}
     </form>
 {% endblock content %}

@@ -1,0 +1,92 @@
+[
+{
+  "model": "bookapp.entry",
+  "pk": 4,
+  "fields": {
+    "author": "asdfasdf",
+    "email": "asdfasdf@asfasdf.asdf",
+    "text": "asdfasdkfas;dfm",
+    "created_at": "2023-02-25T08:33:33.690Z",
+    "updated_at": "2023-02-25T08:33:33.690Z",
+    "status": "active"
+  }
+},
+{
+  "model": "bookapp.entry",
+  "pk": 5,
+  "fields": {
+    "author": "Петя Петкович",
+    "email": "example@asdf.asdf",
+    "text": "Описание писание опи",
+    "created_at": "2023-02-25T09:29:04.562Z",
+    "updated_at": "2023-02-25T09:29:04.562Z",
+    "status": "active"
+  }
+},
+{
+  "model": "bookapp.entry",
+  "pk": 6,
+  "fields": {
+    "author": "Joe Doe",
+    "email": "joedoe@mail.com",
+    "text": "asjdhfkjashdfjkhasd;jkfh ;jkh;asjk dhfjk; ahs;kjdfh a;sjdfh ;kjasbd;kjf bjksadb fj;kb\r\nlkasndfj anjsln",
+    "created_at": "2023-02-25T09:51:30.879Z",
+    "updated_at": "2023-02-25T09:51:30.879Z",
+    "status": "active"
+  }
+},
+{
+  "model": "bookapp.entry",
+  "pk": 7,
+  "fields": {
+    "author": "Иван Иванов",
+    "email": "asdfasdf@asdfzxcv.asdf",
+    "text": "laksmdfm;nasdm;fnasmnd f;masn dmfna sm,dnf masd/f ans/dmf n",
+    "created_at": "2023-02-25T10:01:27.592Z",
+    "updated_at": "2023-02-25T10:01:27.592Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "bookapp.entry",
+  "pk": 8,
+  "fields": {
+    "author": "Kent Volk",
+    "email": "volk@kent.com",
+    "text": "asdfasdmf,na ;mndm;fa sndm;nf 'asmdf \r\na.smdnf.mas dnf\r\nasdnfmasdn dmfn",
+    "created_at": "2023-02-25T10:01:53.248Z",
+    "updated_at": "2023-02-25T10:01:53.248Z",
+    "status": "blocked"
+  }
+},
+{
+  "model": "bookapp.entry",
+  "pk": 9,
+  "fields": {
+    "author": "Monkey",
+    "email": "banana@yellow.com",
+    "text": "alsdnf nasdm fnmasnd mfnasmd fn\r\n'amas.,dfn.asmdnfas\r\n.ansdf.,nas.dfnasd",
+    "created_at": "2023-02-25T10:02:24.635Z",
+    "updated_at": "2023-02-25T10:02:24.635Z",
+    "status": "active"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$Mx1kTrNDinJQdg1uNmmxM1$FS+L9svjiCf8UKWK+TSLpgfDBvcxW02gs4agja58mrM=",
+    "last_login": "2023-02-25T10:00:06.475Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admain@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-25T09:58:28.612Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
